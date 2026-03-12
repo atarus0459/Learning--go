@@ -3,5 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello Allan, welcome to Go.")
+	name := "Allan"
+	age := 25
+	city := "Kisumu"
+	isStudent := true
+
+	fmt.Println("Name:", name)
+	fmt.Println("Age:", age)
+	fmt.Println("city:", city)
+	fmt.Println("isStudent:", isStudent)
 }
