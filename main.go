@@ -3,13 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	name := "Allan"
-	age := 25
-	city := "Kisumu"
-	isStudent := true
+	const pi = 3.14159
+	const country = "Kenya"
+	const speedOfLight = 299792458
 
-	fmt.Println("Name:", name)
-	fmt.Println("Age:", age)
-	fmt.Println("city:", city)
-	fmt.Println("isStudent:", isStudent)
+	fmt.Println (pi)
+	fmt.Println(country)
+	fmt.Println(speedOfLight)
 }
