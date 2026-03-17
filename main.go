@@ -2,10 +2,13 @@ package main
 
 import "fmt"
 
-func greet() {
-	fmt.Println("Good evening Allan")
+func divide(a float64, b float64) (float64, float64)  {
+	return a / b, a * b
 }
 
 func main() {
-	greet()
+	quotient, product := divide(10, 2)
+
+	fmt.Println("Quotient:", quotient)
+	fmt.Println("Product:", product)
 }
