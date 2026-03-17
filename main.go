@@ -3,10 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	age := 22
+	score := 75
 
-	if age >= 18 {
-		fmt.Println("You are an adult")
+	if score >= 80 {
+		fmt.Println("Grade A")
+	} else if score >= 70 {
+		fmt.Println("Grade A-")
+	} else if score >= 60 {
+		fmt.Println("Grade B+")
+	}else {
+		fmt.Println("Grade C")
 	}
 }
 	
